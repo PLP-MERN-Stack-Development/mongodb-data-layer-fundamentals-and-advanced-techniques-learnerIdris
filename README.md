@@ -2,7 +2,7 @@
 
 ## Setup Instructions
 
-Before you begin this assignment, please make sure you have the following installed:
+Before you begin to run this project, please make sure you have the following installed:
 
 1. **MongoDB Community Edition** - [Installation Guide](https://www.mongodb.com/docs/manual/administration/install-community/)
 2. **MongoDB Shell (mongosh)** - This is included with MongoDB Community Edition
@@ -20,9 +20,9 @@ npm init -y
 npm install mongodb
 ```
 
-## Assignment Overview
+## Answer Overview
 
-This week focuses on MongoDB fundamentals including:
+This project focuses on MongoDB fundamentals including:
 - Creating and connecting to MongoDB databases
 - CRUD operations (Create, Read, Update, Delete)
 - MongoDB queries and filters
@@ -31,20 +31,22 @@ This week focuses on MongoDB fundamentals including:
 
 ## Submission
 
-Complete all the exercises in this assignment and push your code to GitHub using the provided GitHub Classroom link.
+All the exercises in the assignment has been completed and pushed  to GitHub using the provided GitHub Classroom link.
 
 ## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
+1. I Accepted the GitHub Classroom assignment invitation
+2. Cloned the repository that was created by GitHub Classroom to my local computer
+3. Installed MongoDB locally or you can set up a MongoDB Atlas account
 4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
+5. Completed the tasks in the assignment document
 
 ## Files Included
 
 - `Week1-Assignment.md`: Detailed assignment instructions
 - `insert_books.js`: Script to populate your MongoDB database with sample book data
+
+- `queries.js`:  MongoDB queries to run the database data
 
 ## Requirements
 
@@ -52,6 +54,39 @@ Complete all the exercises in this assignment and push your code to GitHub using
 - MongoDB (local installation or Atlas account)
 - MongoDB Shell (mongosh) or MongoDB Compass
 
+
+
+## Steps
+
+- Navigate to the project director
+- On Windows: Run dir to list the documents in the directory, ON linux: Run ls
+- Run node insert_books.js
+- You will receive a log that your database has been successfully populated and connection closed
+-![The step above](/Running%20on%20CMD.png)
+- You can refresh your database to see the GUI on MongoDB Compass
+-![The step above](/Compass.png)
+
+- finally run node queries.js
+-![the results](/queries%20output.png)
+-![the results](/query%202.png)
+-![the results](/query%203.png)
+-![the results](/query%204.png)
+-![the results](/query%205.png)
+-![the results](/query%206.png)
+-![the results](/query%207.png)
+-![the results](/query%208.png)
+-![the results](/query%209.png)
+-![the results](/query%2010.png)
+-![the results](/query%2011.png)
+-![the results](/query%2012.png)
+-![the results](/query%2013.png)
+-![the results](/query%2014.png)
+
+- output on compass
+-![the results](/compass%202.png)
+
+
+- MongoDB Shell (mongosh) or MongoDB Compass
 ## Resources
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
